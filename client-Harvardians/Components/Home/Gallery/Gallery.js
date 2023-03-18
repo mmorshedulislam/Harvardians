@@ -31,7 +31,7 @@ const Gallery = () => {
   return (
     <PhotoProvider>
       <div className="max-w-7xl mx-auto p-10">
-        <h2 className="text-center text-4xl font-bold my-5">Gallery</h2>
+        <h2 className="text-center text-5xl font-bold my-5">Gallery</h2>
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10">
           {imgs.map((img, i) => (
             <PhotoView key={i} src={img?.img}>

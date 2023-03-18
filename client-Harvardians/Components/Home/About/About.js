@@ -7,7 +7,7 @@ const About = () => {
       <div className="grid lg:grid-cols-2 gap-10">
         <div className="border-solid border-[16px] border-red-700">
           <div className="relative">
-            <div className="absolute top-[10px] left-[10] border-[10px]">
+            <div className="absolute top-[10] left-[10] border-[10px]">
               <img
                 className=""
                 src="https://lian-ng.envytheme.com/assets/images/about-img.jpg"
