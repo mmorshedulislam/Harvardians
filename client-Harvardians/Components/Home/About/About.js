@@ -6,8 +6,8 @@ const About = () => {
     <div className="max-w-7xl mx-auto p-10">
       <div className="grid lg:grid-cols-2 gap-10">
         <div className="border-solid border-[16px] border-red-700">
-          <div className=" relative">
-            <div className="absolute top-6 left-10">
+          <div className="relative">
+            <div className="absolute top-[10px] left-[10] border-[10px]">
               <img
                 className=""
                 src="https://lian-ng.envytheme.com/assets/images/about-img.jpg"
