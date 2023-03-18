@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="bg-white text-black">
+    <div className="">
       <Head>
         <title>Home</title>
         <meta name="description" content="Harvardian" />
