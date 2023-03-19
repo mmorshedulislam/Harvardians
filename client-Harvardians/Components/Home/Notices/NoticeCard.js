@@ -6,9 +6,8 @@ const NoticeCard = () => {
   const date = format(new Date(), "PP");
   return (
     <div>
-      <div className="flex gap-x-2">
+      <div className="grid grid-cols-[1fr_2fr] gap-x-5">
         <img
-          className="w-1/2 lg:w-1/5"
           src="https://play-lh.googleusercontent.com/BkRfMfIRPR9hUnmIYGDgHHKjow-g18-ouP6B2ko__VnyUHSi1spcc78UtZ4sVUtBH4g"
           alt=""
         />

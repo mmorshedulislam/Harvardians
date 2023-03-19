@@ -23,9 +23,9 @@ const Blogs = () => {
   }
 
   return (
-    <div className="max-w-7xl mx-auto p-10">
+    <div className="max-w-7xl mx-auto p-5 lg:p-10">
       <div className="my-5">
-        <h2 className="text-5xl text-center font-bold">Academic’s news</h2>
+        <h2 className="text-5xl text-center font-bold">Academic’s Blogs</h2>
         <p className="lg:w-2/3 mx-auto text-xl text-center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
           dicta reprehenderit deserunt quo iste eos architecto nostrum itaque a

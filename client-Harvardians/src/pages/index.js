@@ -7,8 +7,8 @@ import Notices from "../../Components/Home/Notices/Notices";
 import About from "../../Components/Home/About/About";
 import Blogs from "../../Components/Home/Blogs/Blogs";
 import Contact from "../../Components/Home/Contact/Contact";
-import Footer from "../../Components/Shared/Footer";
-import Header from "../../Components/Shared/Header";
+import Footer from "../../Components/Shared/Footer/Footer";
+import Header from "../../Components/Shared/Header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 

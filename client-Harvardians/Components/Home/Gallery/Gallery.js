@@ -30,7 +30,7 @@ const Gallery = () => {
   ];
   return (
     <PhotoProvider>
-      <div className="max-w-7xl mx-auto p-10">
+      <div className="max-w-7xl mx-auto p-5 lg:p-10">
         <h2 className="text-center text-5xl font-bold my-5">Gallery</h2>
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-10">
           {imgs.map((img, i) => (

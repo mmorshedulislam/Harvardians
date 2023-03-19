@@ -7,12 +7,12 @@ const Banner = () => {
       className=""
       style={{
         background: `url('https://lian-ng.envytheme.com/assets/images/banner/banner-bg-1.jp')`,
-        backgroundRepeat: 'no-repeat', 
-        backgroundSize: 'cover', 
-        opacity: ''
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        opacity: "",
       }}
     >
-      <div className="max-w-7xl mx-auto p-10 grid lg:grid-cols-2 gap-5 ">
+      <div className="max-w-7xl mx-auto p-5 lg:p-10 grid lg:grid-cols-2 gap-5 ">
         <div className="flex justify-center items-center order-2 lg:order-1">
           <div>
             <p className="text-[#457b9d]">Welcome to Lian</p>
