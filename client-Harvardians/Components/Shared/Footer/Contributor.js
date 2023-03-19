@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook, BsGithub } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
+import { SiWhatsapp } from "react-icons/si";
 
 const Contributor = () => {
   return (
@@ -45,6 +46,12 @@ const Contributor = () => {
           className="p-1  bg-white text-black rounded-full"
         >
           <BsFacebook className="text-xl" />
+        </Link>
+        <Link
+          href={"https://wa.me/+8801861952640"}
+          className="p-1  bg-white text-black rounded-full"
+        >
+          <FaWhatsapp className="text-xl" />
         </Link>
         <Link
           href={"https://www.instagram.com/dev_morshed"}
